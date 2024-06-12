@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="ancor5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Text fx:id="rose_title" fill="#fa0000" layoutX="401.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rose">
+         <font>
+            <Font name="Comic Sans MS Bold" size="44.0" />
+         </font>
+      </Text>
+      <Text fx:id="rose_txt" fill="#d72727" layoutX="20.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Known for their beauty, symbolism, cultural significance, exclusivity, and association with special occasions all contribute Rose to their appeal as a flower of love and affection. Giving someone a rose is not just a simple act of giving a flower, but a gesture that conveys a message of love, admiration, and appreciation." textAlignment="JUSTIFY" wrappingWidth="860.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="back4" layoutX="408.0" layoutY="512.0" mnemonicParsing="false" onAction="#goToMain" text="BACK" textFill="#cf0909">
+         <font>
+            <Font name="Felix Titling" size="25.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="rose_img" fitHeight="250.0" fitWidth="900.0" layoutX="325.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rose2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
